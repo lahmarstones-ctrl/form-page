@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url('/img/use.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+nav{
+    text-align: center;
+}
+nav ul{
+    margin:40px;
+    list-style: none;
+    display: inline-flex ;
+    text-transform: uppercase;
+}
+nav li{
+    margin: 30px;
+}
+nav a{
+    text-decoration: none;
+    color: #337ab7;
+}
+nav a:hover{
+    color: #23527c;
+}
+form input{
+    align-self: center;
+    height: 100%;
+    width: 100%;
+    background-color:#dacdd080;
+    border: 3px  #2c2a36;
+}
+form button{
+    float: right;
+    background-color: #8e88b4;
+    border-radius: 6px 6px;
+    font-variant: small-caps;
+}
